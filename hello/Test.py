@@ -1,6 +1,5 @@
-getal = (input("Van welk getal wilt u de tafel zien? "))
-def Getal(Vraag):
+def getWelcome() -> str:
+    return 'Welcome to function town'
 
-    print(Vraag)
-
-Getal("Dit is de tafel van " + getal + ":")
+message = getWelcome()
+print(message)
