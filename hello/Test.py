@@ -1,5 +1,5 @@
-def getWelcome() -> str:
-    return 'Welcome to function town'
+def helloWorld() -> str:
+    return 'Hello World!'
 
-message = getWelcome()
+message = helloWorld()
 print(message)
